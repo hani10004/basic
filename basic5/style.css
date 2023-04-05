@@ -1,0 +1,17 @@
+
+.one{border: 2px solid blueviolet;
+     padding: 20px;
+     width: 200px;
+     box-sizing: border-box;
+     margin: 20px;
+}
+
+.two{
+    border: 1px solid yellowgreen;
+padding: 20px;
+margin: 30px;}
+
+.three{
+    border: 1px solid peru;
+    
+}
