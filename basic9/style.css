@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+body {
+    padding: 50px;
+}
+
+.parent1 {
+    width: 500px;
+    height: 500px;
+    background-image: url(https://img.freepik.com/premium-vector/square-grid-paper-seamless-pattern-millimeter-paper-sheet-background_434359-268.jpg?w=2000);
+
+}
+
+.parent1 .child1 {
+    width: 100px;
+    height: 100px;
+    background-color: #DDFFBB;
+    position: relative;
+    left: 200px;
+}
+
+.parent1 .child1-2 {
+    width: 100px;
+    height: 100px;
+    background-color: #C7E9B0;
+}
+
+.parent2 {
+    position: relative;
+    margin-top: 30PX;
+    width: 500px;
+    height: 500px;
+    background-image: url(https://img.freepik.com/premium-vector/square-grid-paper-seamless-pattern-millimeter-paper-sheet-background_434359-268.jpg?w=2000);
+
+}
+
+.parent2 .child2 {
+    width: 100px;
+    height: 100px;
+    background-color: #B3C99C;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    /*     
+    left기준 transform: translate(x,y);
+    x -(음수) 좌 + (양수) 우;
+    y -(음수) 위 + (양수) 아래; 
+    %는 자기 자신 
+    */
+}
+
+.parent3 {
+
+    margin-top: 30PX;
+    width: 500px;
+    
+    background-image: url(https://img.freepik.com/premium-vector/square-grid-paper-seamless-pattern-millimeter-paper-sheet-background_434359-268.jpg?w=2000);
+}
+
+.parent3 .child3 {
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: #5D9C59;
+}
+
+.parent4 {
+    height: 2000px;
+}
+
+.parent4 .child4 {}

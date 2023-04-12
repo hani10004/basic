@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.아빠 {
+    width: 1000px;
+    background-color: skyblue;
+    border: 1px solid blue;
+    padding: 10px 20px 30px 40px;
+    padding: 10px 20px 30px;
+    padding: 10px 20px;
+    padding: 20px;
+    margin: 30px auto 0;
+    box-sizing: border-box;
+}
+
+.철수.아빠 .자식 {
+
+    background-color: azure;
+    width: 32%;
+    height: 100px;
+    float: left;
+    margin-right: 2%;
+}
+
+.철수.아빠 .자식:last-child {
+    margin-right: 0%;
+}
+
+.칠수 .자식 {
+    background-color: dodgerblue;
+    width: 23.5%;
+    height: 100px;
+    float: left;
+    margin-right: 2%;
+    overflow: hidden;
+}
+
+.칠수 .자식:last-child {
+    margin-right: 0%;
+}
+
+.칠수 .자식2 video {
+    width: 100%;
+}
+
+.칠수 .자식3{overflow: hidden;}
+.칠수 .자식3 img{
+    width: 100%;
+}
+
+.칠수 .자식4 object {
+    width: 100%;
+}

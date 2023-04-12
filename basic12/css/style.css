@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.전체 {
+    border: 5px solid red;
+    padding: 20px;
+
+}
+
+.김일동 {
+    border: 5px solid blue;
+}
+
+.김이동 {
+    border: 5px solid green;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.김삼동 {
+    border: 5px solid orange;
+    margin-top: 30px;
+}
+
+.김삼동 .삼자 {
+    background-color: blanchedalmond;
+    width: 33.33%;
+    float: left;
+}
+
+.김사동 {
+    margin-top: 30px;
+    border: 5px solid palegreen;
+}
+
+
+.김사동 .사자 {
+    background-color: beige;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+}

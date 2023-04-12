@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+.아빠 {
+    padding: 20px;
+
+
+    width: 1000px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+
+}
+
+.아빠 .자식 {
+    background-color: brown;
+    width: 32%;
+    height: 100px;
+    float: left;
+    margin-right: 2%;
+}
+
+.아빠 .자식:last-child {
+    margin-right: 0%;
+}
+
+
+
+
+.팔수 {
+    background-color: antiquewhite;
+    margin-top: 30px;
+}
+
+.팔수 .자식8 {
+
+    width: 45%;
+    background-color: burlywood;
+    float: left;
+    height: 100px;
+}
+
+.팔수 .자식8:first-child {
+    margin-right: 10%;
+
+}

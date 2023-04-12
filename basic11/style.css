@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+.아빠 {
+    width: 1000px;
+    background-color: #C9EEFF;
+    padding: 20px;
+    border: 1px solid #183A1D;
+    margin: 0 auto;
+}
+
+.일수>div {
+    width: 32%;
+    margin-right: 2%;
+    height: 150px;
+    background-color: #E1EEDD;
+    line-height: 150px;
+    text-align: center;
+    float: left;
+}
+
+.일수>div:last-child {
+    margin-right: 0%;
+}
+
+.일수 .자식1 {
+    position: relative;
+    background-image: url(https://www.portraitflip.com/wp-content/uploads/2021/12/15-pop-art-Cover-v2.jpg);
+    background-size: cover;
+
+}
+
+.일수 .자식1 .cover {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: #F0FF42;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.일수 .자식1:hover .cover {
+    opacity: 1;
+}
+
+
+.일수 .자식2 {
+    position: relative;
+    background-image: url(https://media.architecturaldigest.com/photos/561d7409ed5c90fd5d61282f/16:9/w_2560%2Cc_limit/Yayoi-Kusama-In-Infinity-louisiana-museum-of-modern-art-01.jpg);
+    background-size: cover;
+    
+    overflow: hidden;
+}
+
+.일수 .자식2 .cover {
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%);
+    width: 100%;
+
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    color: #fff;
+    opacity: 1;
+    transition: 0.3s;
+    
+}
+
+.일수 .자식2:hover .cover {
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.일수 .자식3 {
+    position: relative;
+}
+
+.일수 .자식3 .cover{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    line-height: 1.3px;
+    border: 1px solid red;
+}
+
+.일수 .자식3 .cover .title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.일수 .자식3 .cover video{
+
+    w100
+}
